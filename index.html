@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="background">
+  <div class="quote">
+    <div class="quote-container">
+      <img class="quote-image" src="images/pattern-quotes.svg" alt="">
+      <div class="quote-text">
+        <p id="text">
+          &quot if you want to lay the best foundation possible I'd recommend taking this course.
+            The depth the instructors go into is incredible. 
+            I now feel so confident about starting up as a professional developer. &quot;
+        </p>
+        <p id="name">John Tarkpor <span id="span">Junior front-end developer</span> </p>
+      </div>  
+    </div>
+  </div>
+
+  <div class="author">
+    <div class="author-container">
+      <img id="author-image" src="images/image-john.jpg" alt="">
+      <div class="author-tab">
+        <img id="prev" src="images/icon-prev.svg" alt="" onclick="swap()">
+        <img id="next" src="images/icon-next.svg" alt="" onclick="swap()">
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Emmanuel Ezeka</a>.
+  </div> -->
+  <script src="index.js"></script>
+</body>
+</html>
